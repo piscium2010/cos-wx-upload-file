@@ -1,12 +1,6 @@
 //index.js
-var COS = require('../../lib/cos-wx-sdk-v5');
-
-var config = {
-    Bucket: 'mini-1256264454',
-    Region: 'ap-shanghai',
-    SecretId: 'AKID32qSZjlaJqERTJriDb5AAat3c6TfPR7A',
-    SecretKey: 'AGKtOitGco5crbGm7GHZntpgfgdXVL0T'
-}
+var COS = require('../../lib/cos-wx-sdk-v5')
+var config = require('./config')
 
 var cos = new COS({
     getAuthorization: function (params, callback) {//获取签名 必填参数
