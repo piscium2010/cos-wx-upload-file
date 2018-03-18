@@ -1,7 +1,14 @@
 # cos-wx-upload-file
 微信小程序上传文件到腾讯云v5
 
-微信小程序仅支持https请求上传文件，所以我们选择了腾讯云作为文件服务器。此外腾讯云提供了配套小程序开发的[SDK](https://github.com/tencentyun/cos-wx-sdk-v5)，方便微信上传文件时调用
+## Demo
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/live-demo.gif' width='600' alt=''>
+</p>
+
+微信小程序仅支持https请求上传文件，所以我们选择了腾讯云作为文件服务器。此外腾讯云提供了配套小程序开发的[SDK](https://github.com/tencentyun/cos-wx-sdk-v5)，方便微信上传文件时调用。
+
+`为了例子的简洁性，这里没有使用服务器鉴权，而采用了前端鉴权`
 
 ## 前提
 我们假设您已经[入门微信小程序开发](https://mp.weixin.qq.com/debug/wxadoc/dev/)
@@ -60,5 +67,7 @@ git clone https://github.com/piscium2010/cos-wx-upload-file.git
 </p>
 
 运行小程序
-
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/live-demo.gif' width='600' alt=''>
+</p>
 
