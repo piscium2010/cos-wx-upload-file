@@ -1,7 +1,7 @@
 # cos-wx-upload-file
-微信小程序上传文件到腾讯云v5；Wechat mini program upload file to tencent cos v5
+微信小程序上传文件到腾讯云v5
 
-微信小程序仅支持https请求上传文件，所以我们选择了腾讯云作为文件服务器。此外腾讯云提供了配套小程序开发的[SDK](https://github.com/tencentyun/cos-wx-sdk-v5)，方便微信调用
+微信小程序仅支持https请求上传文件，所以我们选择了腾讯云作为文件服务器。此外腾讯云提供了配套小程序开发的[SDK](https://github.com/tencentyun/cos-wx-sdk-v5)，方便微信上传文件时调用
 
 ## 前提
 我们假设您已经[入门微信小程序开发](https://mp.weixin.qq.com/debug/wxadoc/dev/)
@@ -15,7 +15,34 @@
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket.png' width='600' alt=''>
 </p>
 
-得到 Bucket（存储桶名称） 和 Region（地域名称)
+填入存储桶名称等基本信息。为了方便测试，选择公有读私有写
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-II.png' width='600' alt=''>
+</p>
+
+为存储桶添加跨域访问规则（重要）
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-III.png' width='600' alt=''>
+</p>
+
+如果您不熟悉跨域访问设置，可参考以下配置
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-IV.png' width='600' alt=''>
+</p>
+
+获取您的 Bucket（存储桶名称), Region（地域名称) 和访问域名
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-V.png' width='600' alt=''>
+</p>
+
 到[控制台密钥管理](https://console.cloud.tencent.com/cam/capi) 获取您的 SecretId 和 SecretKey
 
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-VI.png' width='600' alt=''>
+</p>
+
+登录[微信公众平台]（https://mp.weixin.qq.com/) 设置 --> 开发设置，将您刚才得到的访问域名填入服务器域名
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/add-domain.png' width='600' alt=''>
+</p>
 
