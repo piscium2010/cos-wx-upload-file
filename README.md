@@ -41,8 +41,24 @@
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-VI.png' width='600' alt=''>
 </p>
 
-登录[微信公众平台]（https://mp.weixin.qq.com/) 设置 --> 开发设置，将您刚才得到的访问域名填入服务器域名
+登录[微信公众平台](https://mp.weixin.qq.com/) 设置 --> 开发设置，将您刚才得到的访问域名填入服务器域名
 <p align='center'>
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/add-domain.png' width='600' alt=''>
 </p>
+
+至此，准备工作全部完成
+
+## 运行项目
+
+```sh
+git clone https://github.com/piscium2010/cos-wx-upload-file.git
+```
+
+编辑cos-wx-upload-file\pages\index\config.js，替换您的 Bucket, Region, SecretId, SecretKey
+<p align='center'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/config.png' width='600' alt=''>
+</p>
+
+运行小程序
+
 
