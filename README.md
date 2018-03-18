@@ -8,10 +8,11 @@
 
 ## 准备工作
 注册[腾讯云](https://cloud.tencent.com/)
+
 到[COS对象存储控制台](https://console.cloud.tencent.com/cos5) 创建存储桶，
 
 <p align='center'>
-<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket.png' width='600' alt='npm start'>
+<img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket.png' width='600' alt=''>
 </p>
 
 得到 Bucket（存储桶名称） 和 Region（地域名称)
