@@ -71,3 +71,6 @@ git clone https://github.com/piscium2010/cos-wx-upload-file.git
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/live-demo.gif' width='600' alt=''>
 </p>
 
+
+## 万一这篇文章对各位客官有些些许帮助的话，劳烦右上角打赏个星星，谢过
+
