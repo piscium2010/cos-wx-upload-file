@@ -74,3 +74,9 @@ git clone https://github.com/piscium2010/cos-wx-upload-file.git
 
 ### 万一这篇文章对各位客官有些许帮助的话，劳烦右上角打赏个星星，阿里阿多
 
+
+
+
+[React 轻量级前端控件实例 - 打造你自己的前端控件](http://www.codeburnt.com)
+
+
