@@ -11,7 +11,7 @@
 `为了例子的简洁性，这里没有使用服务器鉴权，而采用了前端鉴权`
 
 ## 前提
-我们假设您已经[入门微信小程序开发](https://mp.weixin.qq.com/debug/wxadoc/dev/)
+我们假设（哥们儿/妹子）你已经[入门微信小程序开发](https://mp.weixin.qq.com/debug/wxadoc/dev/)
 
 ## 准备工作
 注册[腾讯云](https://cloud.tencent.com/)
@@ -32,23 +32,23 @@
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-III.png' width='600' alt=''>
 </p>
 
-如果您不熟悉跨域访问设置，可参考以下配置
+如果你不熟悉跨域访问设置，可参考以下配置
 <p align='center'>
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-IV.png' width='600' alt=''>
 </p>
 
-获取您的 Bucket（存储桶名称), Region（地域名称) 和访问域名
+获取你的 Bucket（存储桶名称), Region（地域名称) 和访问域名
 <p align='center'>
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-V.png' width='600' alt=''>
 </p>
 
-到[控制台密钥管理](https://console.cloud.tencent.com/cam/capi) 获取您的 SecretId 和 SecretKey
+到[控制台密钥管理](https://console.cloud.tencent.com/cam/capi) 获取你的 SecretId 和 SecretKey
 
 <p align='center'>
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/create-bucket-VI.png' width='600' alt=''>
 </p>
 
-登录[微信公众平台](https://mp.weixin.qq.com/) 设置 --> 开发设置，将您刚才得到的访问域名填入服务器域名
+登录[微信公众平台](https://mp.weixin.qq.com/) 设置 --> 开发设置，将你刚才得到的访问域名填入服务器域名
 <p align='center'>
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/add-domain.png' width='600' alt=''>
 </p>
@@ -61,7 +61,7 @@
 git clone https://github.com/piscium2010/cos-wx-upload-file.git
 ```
 
-编辑cos-wx-upload-file\pages\index\config.js，替换您的 Bucket, Region, SecretId, SecretKey
+编辑cos-wx-upload-file\pages\index\config.js，替换你的 Bucket, Region, SecretId, SecretKey
 <p align='center'>
 <img src='https://public-1256264454.cos.ap-shanghai.myqcloud.com/cos-wx-upload-file/config.png' width='600' alt=''>
 </p>
@@ -72,5 +72,5 @@ git clone https://github.com/piscium2010/cos-wx-upload-file.git
 </p>
 
 
-### 万一这篇文章对各位客官有些些许帮助的话，劳烦右上角打赏个星星，谢过
+### 万一这篇文章对各位客官有些许帮助的话，劳烦右上角打赏个星星，阿里阿多
 
