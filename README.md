@@ -79,4 +79,6 @@ git clone https://github.com/piscium2010/cos-wx-upload-file.git
 
 [React 轻量级前端控件实例 - 打造你自己的前端控件](http://www.codeburnt.com)
 
+[React Proptypes 转 React Typescript 工具](https://github.com/piscium2010/react-proptypes-to-typescript)
+
 
