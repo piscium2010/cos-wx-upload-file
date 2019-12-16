@@ -3,7 +3,7 @@
 
 ## Demo
 <p align='center'>
-<img src='https://https://github.com/piscium2010/cos-wx-upload-file/tree/master/images/0.gif' width='600' alt=''>
+<img src='https://github.com/piscium2010/cos-wx-upload-file/tree/master/images/0.gif' width='600' alt=''>
 </p>
 
 微信小程序仅支持https请求上传文件，所以我们选择了腾讯云作为文件服务器。此外腾讯云提供了配套小程序开发的[SDK](https://github.com/tencentyun/cos-wx-sdk-v5)，方便微信上传文件时调用。
