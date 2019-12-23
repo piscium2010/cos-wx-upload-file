@@ -72,7 +72,7 @@ git clone https://github.com/piscium2010/cos-wx-upload-file.git
 </p>
 
 
-### 万一这篇文章对各位客官有些许帮助的话，劳烦右上角打赏个星星，阿里阿多
+### 写这篇教程就是因为微信的官网教程写得跟___一样，如同意请右上角点赞
 
 
 
