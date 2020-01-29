@@ -11,7 +11,7 @@
 `为了例子的简洁性，这里没有使用服务器鉴权，而采用了前端鉴权`
 
 ## 前提
-我们假设（哥们儿/妹子）你已经[入门微信小程序开发](https://mp.weixin.qq.com/debug/wxadoc/dev/)
+我们假设（哥们儿/妹子）你已经[入门微信小程序开发](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html#%E7%94%B3%E8%AF%B7%E5%B8%90%E5%8F%B7)
 
 ## 准备工作
 注册[腾讯云](https://cloud.tencent.com/)
