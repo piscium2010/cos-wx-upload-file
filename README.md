@@ -80,11 +80,7 @@ git clone https://github.com/piscium2010/cos-wx-upload-file.git
 #### 羞耻广告位
 [designare-table: 企业级react table组件, IE11 下性能完胜Ant Design](https://piscium2010.github.io/designare-table)
 
-[Form 表单联级校验 适配任意UI库：Antd，Office UI fabric， Material ui...](https://github.com/piscium2010/v-form)
-
-[React Proptypes 转 React Typescript 工具](https://github.com/piscium2010/react-proptypes-to-typescript)
-
-[React 轻量级前端控件实例 - 打造你自己的前端控件](https://piscium2010.github.io/lime)
+[迅速搭建React源码测试环境](https://github.com/piscium2010/debug-react)
 
 
 
